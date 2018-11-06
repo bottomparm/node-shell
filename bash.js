@@ -1,8 +1,4 @@
-
-const pwd = require('./pwd.js');
-
-// eslint-disable-next-line eol-last
 process.stdout.write('prompt > ');
 
-pwd();
-
+let pwd = require('./pwd.js');
+//let ls = require('./ls.js');
